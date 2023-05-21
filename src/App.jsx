@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="app">
       <span className="logo">
-        youtube2mp4 by{" "}
+        youtube2mp4 by
         <a
           href="https://erhanpolat.net"
           style={{ textDecoration: "none", color: "white" }}
