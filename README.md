@@ -1,7 +1,7 @@
 This project was bootstrapped with [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
 <ins>App Preview</ins>
-![Project Preview](https://www.erhanpolat.net/img/yt2mp3.png)
+![Project Preview](./src/images/youtube2mp4.png)
 
 ## Available Scripts
 
@@ -18,7 +18,7 @@ Open [http://127.0.0.1:5173](http://127.0.0.1:5173) to view it in the browser.
 
 ### Link
 
-- rapidApi - https://rapidapi.com/ytjar/api/youtube-mp36/
+- rapidApi - https://rapidapi.com/ytjar/api/ytstream-download-youtube-videos/
 - vite - https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 - google font - https://fonts.google.com/
 - css gradient - https://cssgradient.io/gradient-backgrounds/
