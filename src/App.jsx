@@ -43,7 +43,7 @@ function App() {
           Saniyeler içinde YouTube videolarını indir!
         </p>
         <p className="content_description" style={{fontSize: 15}}>
-          (Şu anlık sadece 720p çözünürlük için hizmet verebiliyoruz.)
+          (Şu anlık sadece 720p indirme yapabiliyoruz.)
         </p>
 
         <form onSubmit={handleSubmit} className="form">
