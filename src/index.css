@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   color: white;
-  background: linear-gradient(45deg, #4158D0, #C850C0, #FFCC70);
+  background: #262322;
 }
 
 .app {
@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .content_title {
   font-weight: 700;
@@ -70,10 +70,6 @@ body {
   cursor: pointer;
   margin-bottom: 3rem;
   border-radius: 3px;
-}
-
-.download_btn {
-  color: white;
 }
 
 @media screen and (max-width: 600px) {
