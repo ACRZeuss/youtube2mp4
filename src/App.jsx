@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="app">
       <span className="logo">
-        youtube2mp4 by
+        youtube2mp4 by 
         <a
           href="https://erhanpolat.net"
           style={{ textDecoration: "none", color: "white" }}
@@ -50,7 +50,7 @@ function App() {
           (Şu anlık sadece 720p indirme yapabiliyoruz.)
         </p>
         <p>
-          Ses olarak mı lazım?
+          Ses olarak mı lazım? 
           <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net">MP3 İndirme servisini</a>
           kullanabilirsiniz.
         </p>
