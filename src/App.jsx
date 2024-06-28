@@ -20,7 +20,7 @@ function App() {
       },
     };
     axios(options)
-      .then((res) => setUrlResult(res.data.formats[2].url))
+      .then((res) => setUrlResult(res.data.formats[0].url))
       .catch((err) => console.log(err));
 
     inputUrlRef.current.value = "";
@@ -28,13 +28,12 @@ function App() {
     document.getElementById(
       "video_embed"
     ).src = `https://youtube.com/embed/${youtubeID}`;
+    console.log(urlResult);
   };
 
   return (
     <div className="app">
-      <span className="logo">
-        youtube2mp4 by erhan polat
-      </span>
+      <span className="logo">youtube2mp4 by erhan polat</span>
       <section className="content">
         <h1 className="content_title">YouTube Video İndirici</h1>
         <h2 className="content_description">
@@ -44,8 +43,11 @@ function App() {
           (Şu anlık sadece 720p indirme yapabiliyoruz.)
         </p>
         <p>
-          Ses olarak mı lazım? 
-          <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net"> MP3 İndirme servisini </a> 
+          Ses olarak mı lazım?
+          <a style={{ color: "yellow" }} href="https://yt2mp3.erhanpolat.net">
+            {" "}
+            MP3 İndirme servisini{" "}
+          </a>
           kullanabilirsiniz.
         </p>
 
@@ -78,7 +80,8 @@ function App() {
             target="_blank"
             rel="noreferrer"
             href={urlResult}
-            className="download_btn"
+            className="btn btn-success"
+            style={{ marginBottom: "50px", width: "590px" }}
           >
             720p indir
           </a>
