@@ -28,7 +28,6 @@ function App() {
     document.getElementById(
       "video_embed"
     ).src = `https://youtube.com/embed/${youtubeID}`;
-    console.log(urlResult);
   };
 
   return (
