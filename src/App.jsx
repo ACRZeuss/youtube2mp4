@@ -78,7 +78,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
             href={urlResult}
-            className="btn btn-success"
+            className="btn btn-success download_btn"
             style={{ marginBottom: "50px", width: "590px" }}
           >
             720p indir
