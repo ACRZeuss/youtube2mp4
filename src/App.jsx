@@ -38,7 +38,7 @@ function App() {
           href="https://erhanpolat.net"
           style={{ textDecoration: "none", color: "white" }}
         >
-          erhan polat
+           erhan polat
         </a>
       </span>
       <section className="content">
@@ -51,7 +51,7 @@ function App() {
         </p>
         <p>
           Ses olarak mı lazım? 
-          <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net">MP3 İndirme servisini</a>
+          <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net"> MP3 İndirme servisini</a>
           kullanabilirsiniz.
         </p>
 
