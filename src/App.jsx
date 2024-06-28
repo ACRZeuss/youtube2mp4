@@ -34,7 +34,6 @@ function App() {
     <div className="app">
       <span className="logo">
         youtube2mp4 by erhan polat
-
       </span>
       <section className="content">
         <h1 className="content_title">YouTube Video İndirici</h1>
@@ -46,7 +45,7 @@ function App() {
         </p>
         <p>
           Ses olarak mı lazım? 
-          <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net"> MP3 İndirme servisini</a>
+          <a style={{color: "yellow"}} href="https://yt2mp3.erhanpolat.net"> MP3 İndirme servisini </a>
           kullanabilirsiniz.
         </p>
 
