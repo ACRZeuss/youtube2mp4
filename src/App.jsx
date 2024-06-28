@@ -33,13 +33,8 @@ function App() {
   return (
     <div className="app">
       <span className="logo">
-        youtube2mp4 by 
-        <a
-          href="https://erhanpolat.net"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-           erhan polat
-        </a>
+        youtube2mp4 by erhan polat
+
       </span>
       <section className="content">
         <h1 className="content_title">YouTube Video İndirici</h1>
